@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <title>Final Project</title>
+</head>
+<body>
+<div class="heading">
+  <div class="project-name">Gambit</div>
+</div>
+
+<div class="parameter">
+  <ul class="parameter-ul">
+    <a href="project2.html" class="parameter-a"><li>Home</li></a>
+    <a href="dealspage.html" class="parameter-a"><li>Deals</li></a>
+    <a href="vegetables.html" class="parameter-a"><li>Vegetables</li></a>
+    <a href="fruitpage.html" class="parameter-a"><li>Fruits</li></a>
+    <a href="meatpage.html" class="parameter-a"><li>Meat</li></a>
+
+  </ul>
+
+  <div class="searching" style="display:inline-block; margin: 10px">
+    <form>
+      <input type="text" placeholder="Search here" class="search-form">
+      <button type="button" class="btn btn-default">
+        <span class="glyphicon glyphicon-search"></span> Search
+      </button>
+    </form>
+  </div>
+</div>
+
+<div class="content2">
+  <div class="heading">
+    <div class="name">Vegetables</div>
+  </div>
+
+  <div class="pictures">
+    <div class="images">
+      <img src="https://produits.bienmanger.com/35320-0w470h470_Organic_Red_Cabbage_From_France.jpg" class="image-size">
+    </div>
+
+    <div class="description">
+      <b>Fresh Red Cabbage</b><br/>
+      <div class="picture-select">
+        Price : $0.24/1kg
+      </div>
+
+      <label>Quantity</label>
+      <select class="picture-select">
+        <option>1 kg</option>
+        <option>750 grams</option>
+        <option>500 grams</option>
+        <option>250 grams</option>
+      </select><br/>
+      <button type="button" class="btn">Buy Now</button>
+    </div>
+  </div>
+
+  <div class="pictures">
+    <div class="images">
+      <img src="https://hosstools.com/wp-content/uploads/2020/10/mini-belle-pepper-mix.jpg" class="image-size">
+    </div>
+
+    <div class="description">
+      <b>Fresh Sweet Pepper</b><br/>
+      <div class="picture-select">
+        Price : $3.24/1kg
+      </div>
+
+      <label>Quantity</label>
+      <select class="picture-select">
+        <option>1 kg</option>
+        <option>750 grams</option>
+        <option>500 grams</option>
+        <option>250 grams</option>
+      </select><br/>
+      <button type="button" class="btn">Buy Now</button>
+    </div>
+  </div>
+
+  <div class="pictures">
+    <div class="images">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Tomato_je.jpg" class="image-size">
+    </div>
+
+    <div class="description">
+      <b>Fresh Tomatoes</b><br/>
+      <div class="picture-select">
+        Price : $2.19/1kg
+      </div>
+
+      <label>Quantity</label>
+      <select class="picture-select">
+        <option>1 kg</option>
+        <option>750 grams</option>
+        <option>500 grams</option>
+        <option>250 grams</option>
+      </select><br/>
+      <button type="button" class="btn">Buy Now</button>
+    </div>
+  </div>
+
+  <div class="pictures">
+    <div class="images">
+      <img src="data:image/jpeg;base64,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" class="image-size">
+    </div>
+
+    <div class="description">
+      <b>Fresh Yellow Onion</b><br/>
+      <div class="picture-select">
+        Price : $0.80/1kg
+      </div>
+
+      <label>Quantity</label>
+      <select class="picture-select">
+        <option>1 kg</option>
+        <option>750 grams</option>
+        <option>500 grams</option>
+        <option>250 grams</option>
+      </select><br/>
+      <button type="button" class="btn">Buy Now</button>
+    </div>
+  </div>
+
+  <div class="pictures">
+    <div class="images">
+      <img src="https://solidstarts.com/wp-content/uploads/photo7-scaled.jpg" class="image-size">
+    </div>
+
+    <div class="description">
+      <b>Fresh Eggplant</b><br/>
+      <div class="picture-select">
+        Price : $0.59/1kg
+      </div>
+
+      <label>Quantity</label>
+      <select class="picture-select">
+        <option>1 kg</option>
+        <option>750 grams</option>
+        <option>500 grams</option>
+        <option>250 grams</option>
+      </select><br/>
+      <button type="button" class="btn">Buy Now</button>
+    </div>
+  </div>
+
+  <div class="pictures">
+    <div class="images">
+      <img src="https://www.seeds-gallery.shop/386-large_default/spinach-seeds-matador.jpg" class="image-size">
+    </div>
+
+    <div class="description">
+      <b>Fresh Spinach</b><br/>
+      <div class="picture-select">
+        Price : $0.24/1kg
+      </div>
+
+      <label>Quantity</label>
+      <select class="picture-select">
+        <option>1 kg</option>
+        <option>750 grams</option>
+        <option>500 grams</option>
+        <option>250 grams</option>
+      </select><br/>
+      <button type="button" class="btn">Buy Now</button>
+    </div>
+  </div>
+
+  <div class="pictures">
+    <div class="images">
+      <img src="https://c.ndtvimg.com/2018-10/rn4qsd9_sweet-potatoes-_625x300_10_October_18.jpg" class="image-size">
+    </div>
+
+    <div class="description">
+      <b>Fresh Sweet Potato</b><br/>
+      <div class="picture-select">
+        Price : $4.24/1kg
+      </div>
+
+      <label>Quantity</label>
+      <select class="picture-select">
+        <option>1 kg</option>
+        <option>750 grams</option>
+        <option>500 grams</option>
+        <option>250 grams</option>
+      </select><br/>
+      <button type="button" class="btn">Buy Now</button>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner" style="width:100%">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="https://assets.bonappetit.com/photos/6079b90aa9b0ac274ad47e6b/16:9/w_1280,c_limit/0521-Land-Stewards-Yazzie-Beans-Greens-Salad-Cranberry-Sumac-Dressing.jpg" alt="First slide" height="400px">
+        <div class="carousel-action">
+          <h4 style="position: relative; top: 20px; color: yellow">BEANS AND GREENS SALAD WITH CRANBERRY</h4>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://assets.epicurious.com/photos/56d859fa15dc71625d4da650/master/w_1542,h_1028,c_limit/GREEN_BEAN_NICOISE_SALAD_091.jpg" alt="Second slide" height="400px">
+        <div class="carousel-caption">
+          <h4 style="position: relative; top: 25px; color: yellow">SALAD WITH GREEN BEAN</h4>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://im0-tub-ru.yandex.net/i?id=6ab1a95e9ffe770fa394e7e5ead952a8-l&ref=rim&n=13&w=1080&h=1080" alt="Third slide" width="400px" height="400px">
+        <div class="carousel-caption">
+          <h4 style="position: relative; top: 35px; color: yellow">AMERICAN COBB SALAD</h4>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://www.nospoonnecessary.com/wp-content/uploads/2018/05/Asian-Cucumber-Salad-97.jpg" alt="Forth slide" height="400px">
+        <div class="carousel-caption">
+          <h4 style="position: relative; top: 25px; color: yellow">ASIAN CUCUMBER SALAD</h4>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://yesofcorsa.com/wp-content/uploads/2017/08/Beet-Salad-Wallpaper-Gallery.jpg" alt="Fifth slide" height="400px">
+        <div class="carousel-caption">
+          <h4 style="position: relative; top: 25px; color: yellow">MARINATED BEET SALAD</h4>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://static01.nyt.com/images/2014/04/03/dining/carrotsalad/carrotsalad-superJumbo.jpg" alt="Sixth slide" height="400px">
+        <div class="carousel-caption">
+          <h4 style="position: relative; top: 35px; color: yellow">MARINATED CARROT SALAD</h4>
+        </div>
+      </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+  </div>
+</div>
+
+<ul class="pager">
+  <li><a href="dealspage.html" style="background-color: #184d47; color: white">Previous</a></li>
+  <li><a href="fruitpage.html" style="background-color: #184d47; color: white">Next</a></li>
+</ul>
+</body>
+</html>
